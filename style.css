@@ -14,7 +14,7 @@ header{
 }
 
 .sidebar{
-    min-height: (100vh - 100px - 50px);
+    min-height: calc(100vh - 100px - 50px);
     float: left;
     width: 25%;
     padding: 15px;
@@ -23,7 +23,7 @@ header{
 }
 
 .main-content{
-    min-height: (100vh - 100px - 50px);
+    min-height: calc(100vh - 100px - 50px);
     float: left;
     width: 75%;
     padding: 15px;
